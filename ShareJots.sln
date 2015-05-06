@@ -5,6 +5,28 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareJots", "ShareJots\ShareJots.csproj", "{AA947F62-01B2-4DA1-9178-900267D86C8A}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShareJots.App", "http://localhost:54230", "{E0EED98F-A1AE-4AC8-8F10-8118EFD7342B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54230"
+		Debug.AspNetCompiler.PhysicalPath = "ShareJots.App\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54230\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54230"
+		Release.AspNetCompiler.PhysicalPath = "ShareJots.App\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54230\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "ShareJots.App\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,10 @@ Global
 		{AA947F62-01B2-4DA1-9178-900267D86C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA947F62-01B2-4DA1-9178-900267D86C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA947F62-01B2-4DA1-9178-900267D86C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EED98F-A1AE-4AC8-8F10-8118EFD7342B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EED98F-A1AE-4AC8-8F10-8118EFD7342B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EED98F-A1AE-4AC8-8F10-8118EFD7342B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EED98F-A1AE-4AC8-8F10-8118EFD7342B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
